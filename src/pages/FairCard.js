@@ -1,11 +1,10 @@
 import React ,{ useState } from 'react';
-import './FairCard.css'; // Importe o arquivo CSS para estilizar o card
+import './FairCard.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart as farHeart } from '@fortawesome/free-regular-svg-icons'; // ícone de coração vazio
-import { faHeart as fasHeart } from '@fortawesome/free-solid-svg-icons'; // ícone de coração cheio
-
+import { faHeart as farHeart } from '@fortawesome/free-regular-svg-icons'; 
+import { faHeart as fasHeart } from '@fortawesome/free-solid-svg-icons'; 
 const FairCard = ({ fair }) => {
-    // Suponha que fair.address seja o objeto com as chaves {street, district, number}
+    
     const { street, district, number } = fair.address;
     const [isFavorite, setIsFavorite] = useState(false);
 

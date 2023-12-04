@@ -8,7 +8,7 @@ import FairCard from './FairCard';
 import './MapPage.css'
 
 
-const MapPage = ({ fairs }) => { // Recebe as feiras como prop
+const MapPage = ({ fairs }) => { 
     const customIcon = new Icon({
       iconUrl: Fair,
       iconSize: [38, 38]
@@ -26,7 +26,7 @@ const MapPage = ({ fairs }) => { // Recebe as feiras como prop
                   icon={customIcon}
                 >
                   <Popup>
-                    <FairCard fair={fair} /> {/* Use o componente FairCard aqui */}
+                    <FairCard fair={fair} />
                   </Popup>
                 </Marker>
               ))}

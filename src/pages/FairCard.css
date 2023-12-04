@@ -8,16 +8,16 @@
 
 }
 .favorite-button {
-    position: absolute; /* Posiciona o botão de forma absoluta dentro do card */
-    top: 10px; /* Espaçamento do topo do card */
-    right: 10px; /* Espaçamento da direita do card */
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
     background: none;
     border: none;
     cursor: pointer;
-    color: #ff6868; /* Cor do coração */
+    color: #ff6868; 
 }
   
-  /* Estilos adicionais para o ícone, se necessário */
+  
 .favorite-button .fa-heart {
-    font-size: 1.5em; /* Tamanho do ícone */
+    font-size: 1.5em; 
 }

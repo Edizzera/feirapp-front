@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import './FairFilters.css'; // Importe o arquivo CSS
+import './FairFilters.css';
 
 const FairFilters = ({ onFilterSubmit }) => {
     const [category, setCategory] = useState('');

@@ -2,9 +2,9 @@
   header {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; 
     padding: 10px;
-    background-color: #4CAF50; /* Exemplo de cor de fundo */
+    background-color: #4CAF50; 
   }
   
   .header-content {
@@ -13,8 +13,8 @@
   }
   
   header img {
-    height: 50px; /* Ajuste conforme necessário */
-    margin-left: 10px; /* Espaço entre a imagem e o texto */
+    height: 50px; 
+    margin-left: 10px; 
   }
   
   header h1 {
@@ -34,6 +34,6 @@
   
   nav a {
     text-decoration: none;
-    color: #333; /* Exemplo de cor de texto */
+    color: #333; 
     font-weight: bold;
   }

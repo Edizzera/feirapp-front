@@ -33,7 +33,7 @@
 
   .fair-filters-form button.reset-button {
     padding: 10px 20px;
-    background-color: #f44336; /* Cor vermelha para o botão de reset */
+    background-color: #f44336; 
     color: white;
     border: none;
     border-radius: 5px;

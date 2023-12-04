@@ -56,11 +56,10 @@ export default function App(){
     }
   };
 
-   // Função para construir o payload filtrado
    const buildFilteredPayload = (filters) => {
     const payload = {};
     for (const key in filters) {
-      if (filters[key]) { // Verifica se o valor não é nulo ou vazio
+      if (filters[key]) {
         payload[key] = filters[key];
       }
     }
