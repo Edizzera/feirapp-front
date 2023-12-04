@@ -1,0 +1,15 @@
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0; /* Adiciona um padding vertical */
+  }
+  
+  .leaflet-container {
+    height: 500px; /* Altura fixa para o mapa */
+    width: 80%; /* Largura como porcentagem da largura da viewport */
+    max-width: 1000px; /* Largura máxima para o mapa */
+    margin: 0 auto; /* Margens laterais automáticas */
+    border: 1px solid #ccc; /* Opcional: uma borda para o contêiner do mapa */
+    border-radius: 10px; /* Opcional: bordas arredondadas para o contêiner do mapa */
+  }

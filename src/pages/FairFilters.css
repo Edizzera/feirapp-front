@@ -1,0 +1,46 @@
+.fair-filters-form {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+  }
+  
+  .fair-filters-form label {
+    margin-right: 10px;
+  }
+  
+  .fair-filters-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .fair-filters-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fair-filters-form button:hover {
+    background-color: #45a049;
+  }
+
+  .fair-filters-form button.reset-button {
+    padding: 10px 20px;
+    background-color: #f44336; /* Cor vermelha para o botão de reset */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fair-filters-form button.reset-button:hover {
+    background-color: #d32f2f;
+  }

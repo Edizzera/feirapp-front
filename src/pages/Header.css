@@ -1,0 +1,39 @@
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 10px;
+    background-color: #4CAF50; /* Exemplo de cor de fundo */
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  header img {
+    height: 50px; /* Ajuste conforme necessário */
+    margin-left: 10px; /* Espaço entre a imagem e o texto */
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; /* Exemplo de cor de texto */
+    font-weight: bold;
+  }

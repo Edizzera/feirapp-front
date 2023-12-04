@@ -1,0 +1,23 @@
+.fair-card {
+    padding: 5px;
+    border: 1px solid #1cbdea;
+    border-radius: 4px;
+    background-color: #0fefa4;
+    max-width: 200px;
+    position: relative;
+
+}
+.favorite-button {
+    position: absolute; /* Posiciona o botão de forma absoluta dentro do card */
+    top: 10px; /* Espaçamento do topo do card */
+    right: 10px; /* Espaçamento da direita do card */
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff6868; /* Cor do coração */
+}
+  
+  /* Estilos adicionais para o ícone, se necessário */
+.favorite-button .fa-heart {
+    font-size: 1.5em; /* Tamanho do ícone */
+}
