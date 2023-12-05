@@ -22,7 +22,7 @@ export default function App(){
 
   const fetchAllFairs = async () => {
     try {
-      const response = await fetch('http://172.26.28.140:8080/api/v1/fairs');
+      const response = await fetch('https://7b4d-187-113-85-14.ngrok-free.app:8080/api/v1/fairs');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -37,7 +37,7 @@ export default function App(){
     const filteredPayload = buildFilteredPayload(filters);
 
     try {
-      const response = await fetch('http://172.26.28.140:8080/api/v1/fairs/search', {
+      const response = await fetch('https://7b4d-187-113-85-14.ngrok-free.app:8080/api/v1/fairs/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
